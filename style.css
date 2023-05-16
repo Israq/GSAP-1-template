@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.header {
+    height: 15vh;
+    background-color: bisque;
+}
+
+.links {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    color: red;
+    font-size: xx-large;
+
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    width: 15vw;
+    background-color: green;
+
+}
+
+.button {
+    align-self: center;
+    font-size: xx-large;
+}
+
+.footer {
+    height: 15vh;
+    background-color: blueviolet;
+    transform: translateY(100%);
+}
